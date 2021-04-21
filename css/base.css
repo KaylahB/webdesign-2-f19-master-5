@@ -1,0 +1,212 @@
+/*basic styles */
+
+	body {
+		
+		color:#E6F2FF;
+		font-family: 'Lora', serif;
+		font-style : normal;
+		font-weight:300;
+		line-height: 1.7em;
+		text-align:center;
+        font-size: 100%;
+	
+		
+          }
+
+
+/* typography*/
+p{
+	font-size: lem;
+	margin: 0 0 20px 0;
+	}
+h1{ 
+	font-family: 'Lora', serif;
+	font-weight:400;
+	font-size:1.5em;
+	line-height:2.1;
+	margin:100px;
+
+}
+h2{
+	font-family: 'Lora', serif;
+    font-weight:100;
+	font-size:2.3em;
+	line-height:1.1;
+}
+
+h3{font-family: 'Lora', serif;
+    font-weight:500;
+	font-size:1.5em;
+	line-height:1.1;
+	
+}
+h4{font-family:'Abel', sans-serif;
+    font-weight:900;
+	font-size:1em;
+	line-height:1.1;
+
+}
+h5{
+	font-family:'Abel', sans-serif;
+    font-weight:900;
+	font-size:1em;
+	line-height:1.1;
+}
+h6{font-family:'Abel', sans-serif;
+    font-weight:500;
+	font-size:1em;
+	line-height:1.1;
+}
+		
+	h1{
+		font-family:'Great Vibes', cursive;
+	    font-size:70px;
+		text-align:center;
+		
+		 
+	
+	}
+.container{
+	width: 940px;
+	margin: 0 auto;
+}
+	.large-text{
+		font-size:70px;
+		line-height: 1.4;
+		
+	}
+	
+	.small-text{
+		font-size:12px;
+		line-height:1.2;
+	} 
+	
+/*simple grid-12 columns 60/20*/
+
+/* 1 columns */
+.columns_1{
+	
+	width: 940px;
+	float: left;
+}
+
+/* 2 columns */
+	
+	.columns_2{
+		width: 460px;
+		float:left;
+		margin-right:20px;
+		padding: 0;
+	}
+
+	.columns_2:last-of-type{
+	margin-right: 0;	
+			
+	}
+
+	/* 3 columns */
+	
+	.columns_3{
+		width: 300px;
+		float:left;
+		margin-right: 20px;
+		
+	}
+	
+	.columns_3:last-of-type{
+	margin-right: 0;	
+			
+	}
+	
+/* 4 columns */
+	
+	.columns_4{
+		width: 220px;
+		float:left;
+		margin-right: 20px;
+	}
+	
+	.columns_4:last-of-type{
+	margin-right: 0;	
+		
+	}
+	/* 6 columns */
+	
+	.columns_6{
+		width: 140px;
+		float:left;
+		margin-right: 20px;
+	}
+	
+	.columns_6:last-of-type{
+	margin-right: 0;	
+		
+	}
+	
+/* 12 columns */
+	
+	.columns_12{
+		width: 60px;
+		float:left;
+		margin-right: 20px;
+	}
+	
+	.columns_12:last-of-type{
+	margin-right: 0;
+}
+
+/*buttons*/
+.drk-otl-btn{
+	display:inline-block;
+	padding: 5px 15px;
+	text-align: center;
+	font-weight: 300;
+	border: 1px solid #000;
+	border-radius: 5px;
+	margin: 20px 0;
+	cursor: pointer;	
+}
+.drk-otl-btn:link{
+	color: #000;
+	text-decoration: none;	
+}		
+.drk-otl-btn:hover{
+	color: #ff6600;
+	text-decoration: none;
+	border: 1px solid #ff6600;
+	
+}			
+	
+	
+/* misc html*/
+
+.align-right{
+	float: right;
+	margin: 0 0 0 10px;
+    padding: 0;
+}
+
+.align-left{
+	float: left;
+	display:block;
+	margin: 0 10px 0 0;
+    padding: 0;
+}
+
+.align-center{
+	margin: 0 auto;
+	display: block;
+}
+
+.container{
+		width: 940px;
+	    display:block;
+		margin: 0 auto;
+	    overflow:hidden;
+		clear:both;
+	
+	}
+	
+        img{
+		width:100%;
+}

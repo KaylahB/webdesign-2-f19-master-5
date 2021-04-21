@@ -1,0 +1,575 @@
+/* header */
+
+
+h1{
+	color:#ffffff;
+}
+
+h2{
+	text-align: center;
+}
+
+.section-head h2 {
+	margin: 12px;
+}
+
+
+
+header{
+	width:100%;
+	height: 80px;
+	background-color:#937127;
+	position:fixed;
+	top:0;
+	z-index:500;
+	padding:19px 12px 9px 0;
+}
+
+	.logo{
+		width:200px;
+		height:100px;
+		position:fixed;
+		float :left;
+		margin-top:-4px;
+		margin-left:-20px;
+	background: url("../images/ella_fizlogo1\ \(2\).svg")no-repeat;
+}
+.type-overlay{
+	width:100%;
+	position:absolute;
+	top:700px;
+	z-index: 5;
+	text-align: center;
+	color:#ffffff;
+	
+}
+.video-gallery{ 
+	background-color:#234441;
+	width: 100%;
+	padding: 100px 100px 100px 100px;
+	margin-right: 20px;
+	
+	
+	
+}
+.modern-influence{
+	background-color:#234441 !important;
+	
+}
+
+container{
+	width:100px;
+	height: 80px;
+} 
+.product {
+  width: 100%;
+  padding: 100px 0;
+  float: left;
+  background-color: #ffffff; 
+}
+
+
+header img{
+  width:300px;
+  height:80px;
+  float: left;
+  text-indent:-999em;
+  margin-left:74px;
+}
+.branding a link{
+  color:#56627A;
+  text-decoration:none;
+  
+}
+
+nav{
+	margin-top: 10px;
+	float:right; 
+	
+  }
+  
+  nav ul{
+	list-style-type:none;
+	text-align:right;
+	 
+  }
+nav li{
+font-family: 'Lora', serif;
+font-weight:300;
+font-size:.8em;
+text-transform:uppercase;
+letter-spacing:.1em;
+display:inline-block;
+margin-left:20px;
+cursor:pointer;
+}
+
+nav li a:link {
+  color:#091c5a;
+  text-decoration:none;
+}
+nav li a :visited {
+  color:#091c5a;
+  text-decoration:none;
+}
+
+nav li a:hover {
+  color:#ff6600;
+  text-decoration:none;
+  
+}
+nav li a:active{
+  color:#ff6600;
+  text-decoration:none;
+}
+
+/*headroom*/
+
+.headroom{
+  transition:transform 200ms linear;
+}
+.headroom--pinned{
+  transform:translateY(0%); 
+}
+.headroom--unpinned{
+  transform:translateY(-100%);
+}
+
+.hero-slide-show{
+  margin-top:77px;
+}
+
+/* ============================================================
+  Parallax CSS SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: 'Lora', serif;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  height:1000px;
+width:-30%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+	display:block !important;
+}
+section.module.parallax h1 {
+  margin-top:0;
+  font-size: 36px !important;
+  line-height: 60px;
+  font-weight: 70;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-1 {
+  background-image: url("../images/Photo_Someone_T_300GRAY-1-web-optimised-1000.jpg");
+		width:100%;
+	padding: 100px 100px 100px 100px;
+	display:block !important;
+	position:relative;
+	background-size: cover;
+
+}
+section.module.parallax-2 {
+  background-image: url("../images/image-asset.jpeg");
+	width:auto;
+	width:100%;
+	padding: 100px 100px 100px 100px;
+	display:block !important;
+	position: relative;
+	background-size: cover;
+}
+section.module.parallax-3 {
+  background-image: url("../images/Ella-Fitzgerald (1).jpg");
+	background-size: cover;
+	width:100%;
+	padding: 100px 100px ;
+}
+
+
+  
+
+
+.row{
+  float:left;
+  margin-bottom:20px;
+}
+
+.boxgrid h3{
+  margin: 10px 10px 0 10px;
+  color: #937127;
+  font:18pt'Abel', sans-serif;
+  letter-spacing:-1px;
+  font-weight: bold;
+	text-align: center;
+}
+
+
+.boxgrid p{
+  padding:0 10px;
+  color:white;
+  font-weight:bold;
+  font:10pt'Abel', sans-serif;
+text-align: center;
+}
+
+.boxgrid{
+  
+  width:300px;
+  height:260px;
+  float:left;
+  background:#234441;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+	
+}
+
+.boxgrid img{
+  position:absolute;
+  top:0;
+  left:0;
+  border:20px;
+  
+}
+
+.boxcaption{
+  float:left;
+  position:absolute;
+  background-color:#234441;
+  height:100px;
+  width:100%;
+  opacity:.8;
+text-align: center;
+}
+
+.boxgrid a {
+  color:#ffffff;
+  text-decoration:none;
+}
+
+.captionfull .boxcaption{
+  top:260px;
+  left:0;
+}
+.caption .boxcaption{
+  top:220px;
+  left:0;
+}
+
+
+
+
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
+}
+
+
+.section-copy{
+	text-align: center;
+	font-size:1.2em;
+	
+}
+	
+/*hero-image*/
+
+.hero-image img{
+	
+	width:100%;
+	height:100%;
+	display:block;
+	position: relative;
+	
+}
+
+.hero{
+	width: 100%;
+	display:block;
+	position:relative;
+
+	 
+	
+}
+
+
+.hero-headline{
+	text-align: center;
+	z-index: 100;
+	position:absolute;
+	width:100%;
+}
+
+.timeline{
+	padding: 100px 0;
+	width:100%;
+	
+	text-align: center;
+}
+
+/*biography*/
+.biography{
+	width: 100%;
+	padding: 100px 100px 100px 100px;
+	background-color:#234441;
+	text-align: center;
+}
+
+
+
+.biography img{
+	border-radius:0%;
+	margin-top:-100;
+	padding-bottom:30px;
+	
+} 
+
+
+.biography header{
+	margin-bottom:3px;
+	margin-top:0;
+	text-align: center;
+} 
+
+
+/*live-preformances*/
+
+
+
+
+.live-preformances{
+	width: 100%;
+	padding:50px;
+	background-color:#234441;
+	margin-right: auto;
+	
+	
+}
+
+.live-preformances img{
+	
+	border-radius: 0%;
+	padding-bottom: 20px;
+	
+	
+	
+}
+
+ 
+/*modern-influence*/
+
+.modern-influence{
+	
+	width:100%;
+	padding: 100px 100px 100px 100px;
+	background: url("../images/photo.svg")no-repeat;
+	background-size:cover;
+}
+	
+
+.modern-influence img{
+	width:200px;
+	margin-left:0px;
+	margin-bottom:10px;
+	border-radius:10%;
+	padding-bottom:-40px;
+	}
+	
+.modern-influence-txt{
+margin-left:40px;	
+width: 300px;
+padding: 10px 20px;
+}
+
+
+
+
+.fa-github,
+.fa-html5,
+.fa-wrench,
+.fa-file-pdf,
+.fa-codepen{
+	color:#696969;
+	font-size: 2.5em;
+	margin-bottom:10px;
+	margin-top: 20px;
+}
+
+.fa-css3{
+	color:#696969;
+	font-size: 2.3em;
+	margin-bottom:10px;
+	margin-top: 20px;
+	
+	
+}
+.top-albums{
+	width:100%;
+	padding: 100px 0px ;
+	
+	
+}
+
+
+/*contact us*/
+
+.contact{
+	width:100%;
+	padding: 100px 100px 100px 100px;
+	background-color: #234441 !important;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea,
+.contact-form select{
+	width:360px;
+	height:35px;
+	margin-bottom:25px;
+	padding: 5px 5px 5px 10px;
+	border: 1px solid #dadada;
+	color:#888888;
+	font-weight:100;
+	border-radius: 20px;
+}
+.contact input#name{
+	
+	width:920px;
+}
+.contact textarea#message {
+	height:200px;
+	width:920px;
+} 
+
+.contact input#email{
+	
+	width:920px;
+}
+
+.contact input#email-Confirm{
+	
+	width:920px;
+}
+.contact img{
+	border-radius: 17%;
+
+}
+
+
+
+/*footer*/
+
+footer{
+	width: 100%;
+	padding: 100px 100px 100px 100px;
+	text-align: center;
+	background-color:#937127;
+}
+
+footer a :link{
+	color:#937127;
+	text-decoration:none;
+	
+}
+
+footer a :visited{
+	color:#959595;
+	text-decoration:none;
+	
+}
+
+footer a :hover{
+	color:#eee3cc;
+	text-decoration:none;
+	
+}
+
+footer a :active{
+	color:#937127;
+	text-decoration:none;
+	
+}
+
+footer img{
+	width: 300px;
+    height:80px;
+    float:center;
+    text-indent:-888em;
+    margin-left:56px;
+
+}
+
+.copyright{
+	width: 100%;
+	color:#caa554;
+}
+.copyright p {
+	margin-bottom: 0;
+}
+
+.fa-twitter,
+.fa-facebook-f{
+	font-size: 2em;
+	margin: 20px 5px 0 5px;
+	color:#caa554;
+}
+
+.fa-twitter:hover,
+.fa-facebook-f:hover{
+	color: #caa554;
+
+
+}
+
+.logo-un{
+	width: 50px;
+	height: 40px;
+	position:fixed;
+	float:center;
+	margin-top:60px;
+	
+}
+/*desktopand and laptops*/
+
+@media only screen and (min-width : 1224px) {
+	
+	video{
+		width: 100%;
+		
+	}
+	
+	
+	
+	
+}
